@@ -1,0 +1,41 @@
+        /* Definindo a altura total da página e o layout flexbox */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* A área principal da página ocupa todo o espaço disponível */
+        .container {
+            flex: 1;
+        }
+
+        /* Garantindo que o footer fique no final */
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+.fade-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+}
