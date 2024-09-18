@@ -2,6 +2,8 @@
 
 Um aplicativo de lista de tarefas, desenvolvido com HTML, Bootstrap e JavaScript, que utiliza LocalStorage para armazenar as tarefas localmente no navegador. Além de adicionar, remover e limpar tarefas, o aplicativo permite editar tarefas, adicionar categorias e níveis de prioridade.
 
+`Visualisar no GiHub Pages:` https://lima-joseph.github.io/lisa-de-tarefas/index.html
+
 ## Funcionalidades
 
 - **Adicionar Tarefas**: Permite adicionar novas tarefas à lista.
